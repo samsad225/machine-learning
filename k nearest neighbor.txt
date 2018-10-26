@@ -4,7 +4,7 @@ import pandas as pd
 
 df =pd.read_csv('breast-cancer-wisconsin.data.txt')
 df.replace('?',-99999,inplace=True)
-
+k nearest neighbor.txt
 
 X=np.array(df.drop(['class'],1))
 y =np.array(df['class'])
